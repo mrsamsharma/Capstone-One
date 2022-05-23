@@ -1,0 +1,70 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+body main {
+  background-image: url(./capstone_assets/main_big.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hamburger {
+  background-color: #d3d3d3;
+  border: 2px solid #d3d3d3;
+}
+
+/* Mobile Menu Style*/
+
+.mobile-nav {
+  display: none;
+  position: absolute;
+  background-color: #d3d3d3;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  padding: 65px 35px 0 30px;
+}
+
+.mobile-nav img {
+  height: 50px;
+  display: block;
+  margin-right: auto;
+  position: absolute;
+  top: 25px;
+  left: 10px;
+}
+
+.mobile-nav ul {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin: auto;
+}
+
+.mobile-nav ul li {
+  list-style: none;
+}
+
+.mobile-nav ul li a {
+  color: #ec5242;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+
+.active {
+    display: flex;
+}
