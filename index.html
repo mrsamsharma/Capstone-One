@@ -1,42 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Samuel Felice | Capstone One</title>
+    <script src="./script/app.js" defer></script>
 </head>
+
 <body>
-    <main>
-        <header>
-            <nav class="mobile-nav flex">
-                <img src="./capstone_assets/cross-con.png">
-                <ul class="flex">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Program</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Sponser</a></li>
-                    <li><a href="#">News</a></li>
-                </ul>
-            </nav>
-        </header>
-        <img src="./capstone_assets/" alt="">
+    <header>
+        <nav class="mobile-nav flex">
+            <img src="./capstone_assets/cross-con.png" class="cross-icon">
+            <ul class="flex">
+                <li><a href="#" class="navLink">Home</a></li>
+                <li><a href="#" class="navLink">About</a></li>
+                <li><a href="#" class="navLink">Program</a></li>
+                <li><a href="#" class="navLink">Join</a></li>
+                <li><a href="#" class="navLink">Sponser</a></li>
+                <li><a href="#" class="navLink">News</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <div class="hambumger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+    <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 
-        <section>
+    <section class="home-intro">
+        <div class="intro-heading">
             <h2>"Hello! Music Lovers"</h2>
             <h1>Electronic Music Global Summit 2022</h1>
-            <p>Electronic Music Summit is a 5 day conference which takes place in Ibiza. Our Music conference brings EDM lovers together for a unique and joyful experience. This won't be like a typical boring conference. Our conference is all about enjoying and dancing!</p>
-            <h2>2022.05.25(Wed) ~ 29(Sun)</h2>
-            <p>@ Ushuaïa Ibiza Beach Hotel</p>
-        </section>
-    </main>
+        </div>
+        <p class="mobile-paragraph">Electronic Music Summit is a 5 day conference which takes place in Ibiza. Our Music
+            conference brings EDM lovers together for a unique and joyful experience.</p>
+        <h2 class="mobile-date">2022.05.25(Wed) ~ 29(Sun)</h2>
+        <p class="mobile-location">@ Ushuaïa Ibiza Beach Hotel</p>
+    </section>
+
+    <section class="mainprogram flex">
+        <div class="header flex">
+            <h3>Main Program</h3>
+            <hr>
+        </div>
+
+        <div class="activities flex">
+            <div class="activity flex">
+                <div class="flex imgiconwrapper">
+                    <img src="./capstone_assets/program_icon_01.png">
+                    <h3>Lecture</h3>
+                </div>
+                <p>Top 10 DJs will be sharing techincal knowledge about DAW and equipments they use.</p>
+            </div>
+
+            <div class="activity flex">
+                <div class="flex imgiconwrapper">
+                    <img src="./capstone_assets/program_icon_02.png">
+                    <h3>Dance</h3>
+                </div>
+                <p>This is a party first! Ofc there is good music, booz and awesome people.</p>
+            </div>
+
+            <div class="activity flex">
+                <div class="flex imgiconwrapper">
+                    <img src="./capstone_assets/program_icon_03.png">
+                    <h3>Forum</h3>
+                </div>
+                <p>Everyone will get opportunity to raise questions about music production.</p>
+            </div>
+
+            <div class="activity flex">
+                <div class="flex imgiconwrapper">
+                    <img src="./capstone_assets/program_icon_04.png">
+                    <h3>Workshop</h3>
+                </div>
+                <p>You'll be creating a music from scratch with the artist and they'll choose the best and feature them.
+                </p>
+            </div>
+
+            <div class="activity flex">
+                <div class="flex imgiconwrapper">
+                    <img src="./capstone_assets/program_icon_05.png">
+                    <h3>Connect</h3>
+                </div>
+                <p>Network with other producers, make new friends, share your love for music with like-minded people!</p>
+            </div>
+        </div>
+
+        <button>Join Music Summit 2022</button>
+
+    </section>
+
 </body>
+
 </html>
