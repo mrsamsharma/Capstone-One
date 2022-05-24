@@ -218,6 +218,10 @@
   width: 50px;
 }
 
+.spakers-wrapper {
+  flex-direction: column;
+}
+
 .speaker {
   background-image: url(./capstone_assets/chessboard.jpg);
   background-repeat: no-repeat;
@@ -262,7 +266,7 @@
   font-size: 14px;
 }
 
-.speakers button {
+.speakers-button {
   font-family: 'Lato', sans-serif;
   display: flex;
   align-self: stretch;
@@ -279,7 +283,7 @@
   margin: 20px 20px 20px 20px;
 }
 
-.speakers button img {
+.speakers-button img {
   width: 15px;
 }
 
