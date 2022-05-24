@@ -177,7 +177,7 @@
 
 .activity p {
   color: #fff;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-size: 17px;
   font-weight: 300;
 }
@@ -192,6 +192,95 @@
   padding: 30px 70px;
   font-size: 22px;
   font-weight: 600;
+  border: 2px solid #ec5242;
+}
+
+.speakers {
+  flex-direction: column;
+}
+
+.speakersHeader {
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.speakersHeader h3 {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.speakersHeader hr {
+  border: 1px solid #ec5242;
+  width: 50px;
+}
+
+.speaker {
+  background-image: url(./capstone_assets/chessboard.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 15%;
+  margin: 50px 20px 0 20px;
+}
+
+.speaker img {
+  width: 185px;
+  padding: 25px;
+}
+
+.speakerInfo {
+  flex-direction: column;
+  gap: 7px;
+}
+
+.speakerInfo h2 {
+  font-family: 'Lato', sans-serif;
+  color: #14161a;
+  font-weight: 800;
+  font-size: 21px;
+}
+
+.speakerInfo span {
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.speakerInfo hr {
+  width: 30px;
+}
+
+.speakerInfo p {
+  font-family: 'Lato', sans-serif;
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.speakers button {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid #d3d3d3;
+  background-color: #fff;
+  text-align: center;
+  padding: 15px 120px;
+  color: #363636;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 20px 20px 20px;
+}
+
+.speakers button img {
+  width: 15px;
 }
 
 .active {
