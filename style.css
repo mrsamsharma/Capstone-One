@@ -287,6 +287,67 @@
   width: 15px;
 }
 
+footer {
+  background-color: #424146;
+}
+
+.footerHeader {
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-top: 30px;
+}
+
+.footerHeader h2 {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.footerHeader hr {
+  border: 1px solid #ec5242;
+  width: 35px;
+}
+
+.partnerone {
+  padding: 20px;
+  width: 250px;
+}
+
+.partnertwo {
+  padding: 20px;
+  width: 280px;
+}
+
+.partnerthree {
+  padding: 20px;
+  width: 300px;
+}
+
+.imgone {
+  justify-content: center;
+}
+
+.Footerlogo {
+  background-color: #fff;
+  gap: 20px;
+  padding: 40px;
+}
+
+.Footerlogo img {
+  width: 200px;
+  height: 55px;
+}
+
+.copyrights p {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  padding-bottom: 10px;
+  color: #3a3a3a;
+  font-weight: 600;
+}
+
 .active {
   display: flex;
 }
