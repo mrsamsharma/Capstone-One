@@ -398,9 +398,9 @@ footer {
 }
 
 .edmLogo h2 {
+  font-family: 'Lato', sans-serif;
   text-align: center;
   font-weight: 400;
-  font-family: 'Lato';
 }
 
 .edmLogo hr {
@@ -462,15 +462,247 @@ footer {
 }
 
 .Summit-text span {
-  text-align: center;
   font-family: 'Lato', sans-serif;
+  text-align: center;
   color: #fff;
   font-size: 24px;
   font-weight: 600;
-  z-index: 1
+  z-index: 1;
 }
 
 /* Mobile About Page */
+
+/* Desktop Home Page */
+
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .desktop-nav-1 {
+    background-color: #3e3e3e;
+  }
+
+  .desktop-nav-1 ul {
+    list-style: none;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 250px;
+  }
+
+  .facebook {
+    width: 10px;
+  }
+
+  .twitter {
+    width: 20px;
+  }
+
+  .desktop-nav-1 ul li a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    margin-right: auto;
+  }
+
+  .desktop-nav-2 {
+    align-items: center;
+    padding: 5px;
+  }
+
+  .desktop-nav-2 a img {
+    width: 250px;
+    margin-left: 250px;
+  }
+
+  .desktop-nav-2 ul {
+    list-style: none;
+    justify-content: center;
+    gap: 100px;
+    margin-left: 300px;
+  }
+
+  .desktop-nav-2 ul li a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #747474;
+    font-weight: 600;
+  }
+
+  .desktop-nav-2 ul li a:hover {
+    text-decoration: underline;
+    font-weight: 900;
+  }
+
+  .desktop-nav-2 ul li a:active {
+    color: #ec5242;
+  }
+
+  .desktop-nav-2 button {
+    margin-left: 100px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border: 4px solid #ec5242;
+    padding: 10px;
+    color: #ec5242;
+    background-color: #fff;
+    transition: background-color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .mainprogram button {
+    display: none;
+  }
+
+  .desktop-nav-2 button:hover {
+    font-style: italic;
+    color: #fff;
+    background-color: #ec5242;
+  }
+
+  .desktop-nav-2 button:active {
+    color: #fff;
+    background-color: #ca2f1e;
+    transition: background-color 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .home-intro {
+    background-image: url(./capstone_assets/main_big.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-left: 300px;
+    padding-top: 100px;
+  }
+
+  .intro-heading {
+    width: 45%;
+  }
+
+  .intro-heading h2 {
+    font-size: 48px;
+  }
+
+  .intro-heading h1 {
+    font-size: 72px;
+  }
+
+  .mobile-paragraph {
+    width: 48%;
+    padding: 30px;
+    font-size: 17px;
+  }
+
+  .mobile-date {
+    font-size: 42px;
+  }
+
+  .mobile-location {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 125px;
+  }
+
+  .header h3 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .activities {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .activity {
+    flex-direction: column;
+    gap: 15px;
+    width: 250px;
+  }
+
+  .activity:hover {
+    border: 2px solid #fff;
+    background-color: #8e8e8e5a;
+  }
+
+  .activity p {
+    text-align: center;
+  }
+
+  .imgiconwrapper {
+    flex-direction: column;
+  }
+
+  .desktop-mainprogramBtn {
+    font-family: 'Lato', sans-serif;
+    align-self: center;
+    color: #dddee3;
+    padding: 20px;
+    font-size: 22px;
+  }
+
+  .desktop-mainprogramBtn:hover {
+    color: #f0eeee;
+  }
+
+  .desktop-mainprogramBtn:active {
+    color: #ec5242;
+  }
+
+  .spakers-wrapper {
+    margin-top: 50px;
+    justify-content: center;
+    gap: 2rem;
+    flex-flow: row wrap;
+    margin-bottom: 50px;
+  }
+
+  .speaker {
+    width: 20%;
+    max-width: 650px;
+    min-width: 600px;
+  }
+
+  .footerHeader h2 {
+    color: #9f9fa1;
+    font-size: 32px;
+  }
+
+  .partnerIcons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .partnerone {
+    width: 300px;
+  }
+
+  .partnertwo {
+    width: 300px;
+  }
+
+  .partnerthree {
+    width: 400px;
+  }
+
+  .Footerlogo {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .Footerlogo a img {
+    margin-left: 300px;
+    width: 300px;
+    height: 90px;
+  }
+
+  .copyrights p {
+    font-size: 16px;
+  }
+
+  /* Desktop Home Page */
+}
 
 .active {
   display: flex;
