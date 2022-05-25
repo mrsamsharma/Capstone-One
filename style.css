@@ -486,7 +486,6 @@ footer {
   flex-direction: column;
 }
 
-
 /* Mobile About Page */
 
 /* Desktop Home Page */
@@ -527,6 +526,10 @@ footer {
     display: flex;
     align-items: center;
     padding: 5px;
+  }
+
+  .aboutEdmLogo img {
+    width: 300px;
   }
 
   .desktop-nav-2 a img {
@@ -757,10 +760,6 @@ footer {
   .aboutEdmLogo {
     align-self: center;
     padding: 40px 75px 40px 75px;
-  }
-
-  .aboutEdmLogo img {
-    width: 300px;
   }
 
   .desktop-summit {
