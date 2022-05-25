@@ -8,8 +8,16 @@
   font-family: "COCOGOOSE", sans-serif;
 }
 
+.desktop-nav-1 {
+  display: none;
+}
+
 .flex {
   display: flex;
+}
+
+.desktop-nav-2 {
+  display: none;
 }
 
 .home-intro {
@@ -167,7 +175,7 @@
 .imgiconwrapper {
   align-items: center;
   gap: 30px;
-  width: 30%;
+  width: 23%;
 }
 
 .activity h3 {
@@ -178,7 +186,7 @@
 .activity p {
   color: #fff;
   font-family: 'Lato', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 300;
 }
 
@@ -470,6 +478,15 @@ footer {
   z-index: 1;
 }
 
+.desktop-mainprogramBtn {
+  display: none;
+}
+
+.desktop-summit {
+  flex-direction: column;
+}
+
+
 /* Mobile About Page */
 
 /* Desktop Home Page */
@@ -480,6 +497,7 @@ footer {
   }
 
   .desktop-nav-1 {
+    display: block;
     background-color: #3e3e3e;
   }
 
@@ -506,6 +524,7 @@ footer {
   }
 
   .desktop-nav-2 {
+    display: flex;
     align-items: center;
     padding: 5px;
   }
@@ -574,10 +593,6 @@ footer {
     padding-top: 100px;
   }
 
-  .intro-heading {
-    width: 45%;
-  }
-
   .intro-heading h2 {
     font-size: 48px;
   }
@@ -617,6 +632,7 @@ footer {
     flex-direction: column;
     gap: 15px;
     width: 250px;
+    border: 2px solid transparent;
   }
 
   .activity:hover {
@@ -633,6 +649,7 @@ footer {
   }
 
   .desktop-mainprogramBtn {
+    display: inline;
     font-family: 'Lato', sans-serif;
     align-self: center;
     color: #dddee3;
@@ -702,6 +719,62 @@ footer {
   }
 
   /* Desktop Home Page */
+
+  /* Desktop About Page */
+
+  .about-intro {
+    align-items: center;
+    background-size: 65%;
+    background-position: center;
+  }
+
+  .about-intro-heading h2 {
+    display: none;
+  }
+
+  .about-intro-heading hr {
+    width: 50px;
+    border: 1px solid #c75043;
+    margin-bottom: 50px;
+    margin-top: 15px;
+  }
+
+  .about-Email-paragraph {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .about-Email {
+    margin-bottom: 100px;
+  }
+
+  .edmLogo h2 {
+    font-weight: 600;
+    color: #343434;
+    font-size: 26px;
+  }
+
+  .aboutEdmLogo {
+    align-self: center;
+    padding: 40px 75px 40px 75px;
+  }
+
+  .aboutEdmLogo img {
+    width: 300px;
+  }
+
+  .desktop-summit {
+    flex-direction: row;
+    align-self: center;
+    gap: 15px;
+    max-width: 860px;
+  }
+
+  .Summit-text h2 {
+    color: #fff;
+  }
+
+  /* Desktop About Page */
 }
 
 .active {
