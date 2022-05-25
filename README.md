@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Click here to view this project!]https://samwfelice.github.io/Capstone-One/)
+[Click here to view this project!](https://samwfelice.github.io/Capstone-One/)
 
 ## To make a copy
 
