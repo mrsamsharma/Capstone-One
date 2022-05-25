@@ -338,6 +338,7 @@ footer {
 }
 
 .Footerlogo {
+  justify-content: center;
   background-color: #fff;
   gap: 20px;
   padding: 40px;
@@ -525,6 +526,7 @@ footer {
   .desktop-nav-2 {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     padding: 5px;
   }
 
@@ -533,15 +535,14 @@ footer {
   }
 
   .desktop-nav-2 a img {
-    width: 250px;
-    margin-left: 250px;
+    width: 210px;
   }
 
   .desktop-nav-2 ul {
     list-style: none;
     justify-content: center;
-    gap: 100px;
-    margin-left: 300px;
+    align-items: baseline;
+    gap: 2rem;
   }
 
   .desktop-nav-2 ul li a {
@@ -560,8 +561,7 @@ footer {
     color: #ec5242;
   }
 
-  .desktop-nav-2 button {
-    margin-left: 100px;
+  .desktop-nav-2 ul li button {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -682,6 +682,10 @@ footer {
     min-width: 600px;
   }
 
+  .speakers-button {
+    display: none;
+  }
+
   .footerHeader h2 {
     color: #9f9fa1;
     font-size: 32px;
@@ -694,31 +698,34 @@ footer {
   }
 
   .partnerone {
-    width: 300px;
+    width: 180px;
   }
 
   .partnertwo {
-    width: 300px;
+    width: 180px;
   }
 
   .partnerthree {
-    width: 400px;
+    width: 202px;
   }
 
   .Footerlogo {
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     gap: 100px;
   }
 
   .Footerlogo a img {
-    margin-left: 300px;
     width: 300px;
     height: 90px;
   }
 
   .copyrights p {
     font-size: 16px;
+  }
+
+  .aboutcopyrights p {
+    color: #fff;
   }
 
   /* Desktop Home Page */
@@ -771,6 +778,18 @@ footer {
 
   .Summit-text h2 {
     color: #fff;
+  }
+
+  .aboutFooter {
+    background-color: #424146;
+  }
+
+  .aboutFooterHeader {
+    display: none;
+  }
+
+  .aboutParter {
+    display: none;
   }
 
   /* Desktop About Page */

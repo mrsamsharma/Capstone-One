@@ -96,7 +96,15 @@ function loadFeaturedSpeakers(arr) {
   });
 }
 
-loadFeaturedSpeakers(djData.filter((dj) => dj.hidden === false));
+function renderSpeakers() {
+  document.querySelector('.spakers-wrapper').innerHTML = '';
+  if (visualViewport.width > 768) {
+    loadFeaturedSpeakers(djData);
+  } else loadFeaturedSpeakers(djData.filter((dj) => dj.hidden === false));
+}
+
+renderSpeakers();
+window.addEventListener('resize', renderSpeakers);
 
 document.getElementById('moreBtn').addEventListener('click', (e) => {
   loadFeaturedSpeakers(djData.filter((dj) => dj.hidden === true));
