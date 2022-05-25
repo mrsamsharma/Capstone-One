@@ -561,6 +561,10 @@ footer {
     color: #ec5242;
   }
 
+  .mainprogram button {
+    display: none;
+  }
+
   .desktop-nav-2 ul li button {
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -570,10 +574,6 @@ footer {
     color: #ec5242;
     background-color: #fff;
     transition: background-color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-  }
-
-  .mainprogram button {
-    display: none;
   }
 
   .desktop-nav-2 button:hover {
