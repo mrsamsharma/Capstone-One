@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Click here to view this project!](https://samwfelice.github.io/Capstone-One/)
+[Click here to view this project!](https://mrsamsharma.github.io/Capstone-One/)
 
 ## To make a copy
 
@@ -22,11 +22,11 @@ git clone git@github.com:samWfelice/Capstone-One.git
 
 ## Authors
 
-👤 **Samuel Felice**
+👤 **Satyam Sharma**
 
-- GitHub: [@samWfelcie](https://github.com/samWfelice)
+- GitHub: [@samWfelcie](https://github.com/mrsamsharma)
 - Twitter: [@samwfelice](https://twitter.com/samwfelice)
-- LinkedIn: [samfelice](https://www.linkedin.com/in/samfelice)
+- LinkedIn: [samfelice](https://twitter.com/mrsamshx)
 
 ## 🤝 Contributing
 
