@@ -24,9 +24,9 @@ git clone git@github.com:samWfelice/Capstone-One.git
 
 👤 **Satyam Sharma**
 
-- GitHub: [@samWfelcie](https://github.com/mrsamsharma)
-- Twitter: [@samwfelice](https://twitter.com/samwfelice)
-- LinkedIn: [samfelice](https://twitter.com/mrsamshx)
+- GitHub: [@mrsamsharma](https://github.com/mrsamsharma)
+- Twitter: [@samwfelice](https://www.linkedin.com/in/mrsamsharma/)
+- Twitter: [@mrsamshx](https://twitter.com/mrsamshx)
 
 ## 🤝 Contributing
 
